@@ -1,0 +1,22 @@
+# Env
+.env
+.env.*.local
+
+# Node
+**/node_modules/
+**/.next/
+**/dist/
+**/.turbo/
+**/*.log
+
+# Nest
+**/coverage/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Docker volumes (si jamais)
+**/data/
